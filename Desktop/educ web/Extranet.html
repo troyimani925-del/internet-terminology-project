@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Extranet</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="simple-header">
+  <h1>Extranet</h1>
+</header>
+
+<nav class="navbar">
+  <div class="nav-links" id="navLinks">
+    <a href="index.html">Home</a>
+    <a href="www.html">WWW</a>
+    <a href="tcp-ip.html">TCP/IP</a>
+    <a href="dns.html">DNS</a>
+    <a href="http.html">HTTP</a>
+  </div>
+  <div class="menu-icon" onclick="toggleMenu()">☰</div>
+</nav>
+
+<main class="main-content">
+
+  <img src="images/extranet.jpeg" class="page-img">
+
+  <h2>Definition</h2>
+<p>
+An extranet is an extension of an intranet that allows limited access to external users such as partners, suppliers, or clients. It provides controlled access to specific resources within an organization’s network.
+<br><br>
+It is designed to facilitate collaboration between an organization and external stakeholders.
+</p>
+
+<h2>Explanation</h2>
+<p>
+Through an extranet, authorized external users can access certain data or services without being granted full access to the internal network.
+<br><br>
+This improves communication and efficiency in business operations while maintaining security and control over sensitive information.
+</p>
+</main>
+
+<footer>© 2026 Internet Terminology Project</footer>
+
+<script>
+function toggleMenu(){
+  document.getElementById("navLinks").classList.toggle("active");
+}
+</script>
+
+</body>
+</html>

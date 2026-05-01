@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML Basics</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="simple-header">
+  <h1>HTML Basics</h1>
+</header>
+
+<nav class="navbar">
+  <div class="nav-links" id="navLinks">
+    <a href="index.html">Home</a>
+    <a href="www.html">WWW</a>
+    <a href="tcp-ip.html">TCP/IP</a>
+    <a href="dns.html">DNS</a>
+    <a href="http.html">HTTP</a>
+  </div>
+  <div class="menu-icon" onclick="toggleMenu()">☰</div>
+</nav>
+
+<main class="main-content">
+
+  <img src="images/html.jpeg" class="page-img">
+
+  <h2>Definition</h2>
+<p>
+HTML (Hypertext Markup Language) is the standard language used to create and structure content on web pages. It defines how text, images, links, and other elements are displayed in a browser.
+<br><br>
+HTML uses tags and elements to organize content in a logical and readable format.
+</p>
+
+<h2>Explanation</h2>
+<p>
+HTML works by using a system of tags such as headings, paragraphs, and links to structure web content.
+<br><br>
+Browsers interpret these tags and render them visually for users. HTML is often used together with CSS for styling and JavaScript for interactivity, forming the foundation of modern web development.
+</p>
+</main>
+
+<footer>© 2026 Internet Terminology Project</footer>
+
+<script>
+function toggleMenu(){
+  document.getElementById("navLinks").classList.toggle("active");
+}
+</script>
+
+</body>
+</html>

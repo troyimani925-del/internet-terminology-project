@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Intranet</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="simple-header">
+  <h1>Intranet</h1>
+</header>
+
+<nav class="navbar">
+  <div class="nav-links" id="navLinks">
+    <a href="index.html">Home</a>
+    <a href="www.html">WWW</a>
+    <a href="tcp-ip.html">TCP/IP</a>
+    <a href="dns.html">DNS</a>
+    <a href="http.html">HTTP</a>
+  </div>
+  <div class="menu-icon" onclick="toggleMenu()">☰</div>
+</nav>
+
+<main class="main-content">
+
+  <img src="images/intranet.jpeg" class="page-img">
+
+  <h2>Definition</h2>
+<p>
+An intranet is a private network that is used within an organization to share information, resources, and communication tools among employees. It operates using Internet technologies but is restricted to authorized users only.
+<br><br>
+It is commonly used by businesses, schools, and institutions to manage internal operations.
+</p>
+
+<h2>Explanation</h2>
+<p>
+An intranet allows employees to access company documents, communicate with colleagues, and collaborate on projects in a secure environment.
+<br><br>
+Because it is private, it is protected from external access, ensuring that sensitive information remains secure within the organization.
+</p>
+</main>
+
+<footer>© 2026 Internet Terminology Project</footer>
+
+<script>
+function toggleMenu(){
+  document.getElementById("navLinks").classList.toggle("active");
+}
+</script>
+
+</body>
+</html>
