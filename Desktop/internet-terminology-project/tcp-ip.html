@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TCP/IP</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="simple-header">
+  <h1>TCP/IP</h1>
+</header>
+
+<nav class="navbar">
+  <div class="nav-links" id="navLinks">
+    <a href="index.html">Home</a>
+    <a href="www.html">WWW</a>
+    <a href="tcp-ip.html">TCP/IP</a>
+    <a href="dns.html">DNS</a>
+    <a href="http.html">HTTP</a>
+  </div>
+  <div class="menu-icon" onclick="toggleMenu()">☰</div>
+</nav>
+
+<main class="main-content">
+
+  <img src="images/tcpip.jpeg" class="page-img">
+
+ <h2>Definition</h2>
+<p>
+TCP/IP (Transmission Control Protocol/Internet Protocol) is a set of standardized communication rules that enable devices to connect and exchange data over networks, including the Internet. It forms the foundational protocol suite that supports global digital communication.
+<br><br>
+It ensures that data can be transmitted reliably and accurately between different systems regardless of their hardware or operating system.
+</p>
+
+<h2>Explanation</h2>
+<p>
+TCP is responsible for breaking data into smaller packets, ensuring they are delivered correctly, and reassembling them at the destination. If any packets are lost during transmission, TCP retransmits them to maintain reliability.
+<br><br>
+IP handles addressing and routing by assigning unique IP addresses to devices and ensuring data packets are sent to the correct destination across networks. Together, TCP and IP make efficient and reliable global communication possible.
+</p>
+</main>
+
+<footer>© 2026 Internet Terminology Project</footer>
+
+<script>
+function toggleMenu(){
+  document.getElementById("navLinks").classList.toggle("active");
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Web Server</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="simple-header">
+  <h1>Web Server</h1>
+</header>
+
+<nav class="navbar">
+  <div class="nav-links" id="navLinks">
+    <a href="index.html">Home</a>
+    <a href="www.html">WWW</a>
+    <a href="tcp-ip.html">TCP/IP</a>
+    <a href="dns.html">DNS</a>
+    <a href="http.html">HTTP</a>
+  </div>
+  <div class="menu-icon" onclick="toggleMenu()">☰</div>
+</nav>
+
+<main class="main-content">
+
+  <img src="images/server.jpeg" class="page-img">
+
+ <h2>Definition</h2>
+<p>
+A web server is a computer system or software that stores, processes, and delivers web content to users over the Internet. It plays a central role in hosting websites and making them accessible to users worldwide.
+<br><br>
+Web servers respond to requests from web browsers and provide the requested resources such as web pages, images, and files.
+</p>
+
+<h2>Explanation</h2>
+<p>
+When a browser sends a request for a webpage, the web server receives and processes that request. It then retrieves the necessary files and sends them back to the browser.
+<br><br>
+Web servers use protocols like HTTP or HTTPS to communicate and ensure that data is transmitted correctly. They can handle multiple requests simultaneously, making it possible for many users to access a website at the same time.
+</p>
+</main>
+
+<footer>© 2026 Internet Terminology Project</footer>
+
+<script>
+function toggleMenu(){
+  document.getElementById("navLinks").classList.toggle("active");
+}
+</script>
+
+</body>
+</html>

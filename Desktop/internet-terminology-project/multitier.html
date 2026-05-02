@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Multitier Architecture</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="simple-header">
+  <h1>Multitier Architecture</h1>
+</header>
+
+<nav class="navbar">
+  <div class="nav-links" id="navLinks">
+    <a href="index.html">Home</a>
+    <a href="www.html">WWW</a>
+    <a href="tcp-ip.html">TCP/IP</a>
+    <a href="dns.html">DNS</a>
+    <a href="http.html">HTTP</a>
+    <a href="multitier.html">Multitier</a>
+  </div>
+
+  <div class="menu-icon" onclick="toggleMenu()">☰</div>
+</nav>
+
+<main class="main-content">
+
+  <img src="images/multitier.jpeg" class="page-img" alt="Multitier Architecture">
+
+  <h2>Definition</h2>
+<p>
+Multitier architecture is a design approach in software development where an application is divided into multiple layers, each responsible for a specific function. These layers typically include the presentation tier, application tier, and data tier.
+<br><br>
+This separation of concerns improves system organization, scalability, and maintainability.
+</p>
+
+<h2>Explanation</h2>
+<p>
+In a multitier system, the presentation tier handles user interaction, the application tier processes logic and operations, and the data tier manages storage and retrieval of information.
+<br><br>
+This structure allows each layer to operate independently, making it easier to update, secure, and scale the system without affecting the entire application. It is widely used in modern web and enterprise applications.
+</p>
+</main>
+
+<footer>
+  <p>© 2026 Internet Terminology Project</p>
+</footer>
+
+<script>
+function toggleMenu() {
+  document.getElementById("navLinks").classList.toggle("active");
+}
+</script>
+
+</body>
+</html>

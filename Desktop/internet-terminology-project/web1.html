@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Web 1.0</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="simple-header">
+  <h1>Web 1.0</h1>
+</header>
+
+<nav class="navbar">
+  <div class="nav-links" id="navLinks">
+    <a href="index.html">Home</a>
+    <a href="www.html">WWW</a>
+    <a href="tcp-ip.html">TCP/IP</a>
+    <a href="dns.html">DNS</a>
+    <a href="http.html">HTTP</a>
+  </div>
+  <div class="menu-icon" onclick="toggleMenu()">☰</div>
+</nav>
+
+<main class="main-content">
+
+  <img src="images/web1.jpeg" class="page-img">
+<h2>Definition</h2>
+<p>
+Web 1.0 refers to the first generation of the World Wide Web, characterized by static web pages that provided information without allowing user interaction. It was mainly designed for reading content rather than contributing to it.
+<br><br>
+Web 1.0 pages were simple, with limited design and functionality, and were typically created using basic HTML.
+</p>
+
+<h2>Explanation</h2>
+<p>
+During the Web 1.0 era, users could only view content published by website owners, with little or no opportunity to interact or provide feedback.
+<br><br>
+There were no social media platforms, comment sections, or dynamic content. This made the web more like a digital library where information was consumed passively.
+</p>
+  
+</main>
+
+<footer>© 2026 Internet Terminology Project</footer>
+
+<script>
+function toggleMenu(){
+  document.getElementById("navLinks").classList.toggle("active");
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>URL</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="simple-header">
+  <h1>Uniform Resource Locator (URL)</h1>
+</header>
+
+<nav class="navbar">
+  <div class="nav-links" id="navLinks">
+    <a href="index.html">Home</a>
+    <a href="www.html">WWW</a>
+    <a href="tcp-ip.html">TCP/IP</a>
+    <a href="dns.html">DNS</a>
+    <a href="http.html">HTTP</a>
+  </div>
+  <div class="menu-icon" onclick="toggleMenu()">☰</div>
+</nav>
+
+<main class="main-content">
+
+  <img src="images/url.jpeg" class="page-img">
+
+  <h2>Definition</h2>
+<p>
+A Uniform Resource Locator (URL) is the address used to locate resources on the Internet. It specifies the location of a resource such as a web page and the method used to access it.
+<br><br>
+A URL typically includes components such as the protocol, domain name, and path to the resource.
+</p>
+
+<h2>Explanation</h2>
+<p>
+When a user enters a URL into a browser, the browser interprets the address and uses it to request the resource from the appropriate web server.
+<br><br>
+The protocol (such as HTTP or HTTPS) determines how the request is made, while the domain name is translated into an IP address using DNS. The browser then retrieves and displays the requested content.
+</p>
+</main>
+
+<footer>© 2026 Internet Terminology Project</footer>
+
+<script>
+function toggleMenu(){
+  document.getElementById("navLinks").classList.toggle("active");
+}
+</script>
+
+</body>
+</html>
