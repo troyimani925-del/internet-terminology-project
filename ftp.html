@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FTP</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="simple-header">
+  <h1>File Transfer Protocol (FTP)</h1>
+</header>
+
+<nav class="navbar">
+  <div class="nav-links" id="navLinks">
+    <a href="index.html">Home</a>
+    <a href="www.html">WWW</a>
+    <a href="tcp-ip.html">TCP/IP</a>
+    <a href="dns.html">DNS</a>
+    <a href="http.html">HTTP</a>
+  </div>
+  <div class="menu-icon" onclick="toggleMenu()">☰</div>
+</nav>
+
+<main class="main-content">
+
+  <img src="images/ftp.jpeg" class="page-img">
+
+  <h2>Definition</h2>
+<p>
+File Transfer Protocol (FTP) is a standard network protocol used to transfer files between computers over a network, such as the Internet. It allows users to upload, download, and manage files on remote servers.
+<br><br>
+FTP is commonly used by developers and administrators to maintain websites and transfer large files efficiently.
+</p>
+
+<h2>Explanation</h2>
+<p>
+FTP works by establishing a connection between a client and a server. The client sends commands to the server to upload or download files.
+<br><br>
+It uses separate channels for control and data transfer, which improves efficiency. Although FTP is fast and reliable, secure versions such as SFTP are often preferred for protecting sensitive data during transmission.
+</p>
+</main>
+
+<footer>© 2026 Internet Terminology Project</footer>
+
+<script>
+function toggleMenu(){
+  document.getElementById("navLinks").classList.toggle("active");
+}
+</script>
+
+</body>
+</html>

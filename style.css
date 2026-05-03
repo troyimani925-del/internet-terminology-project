@@ -1,0 +1,196 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f9;
+}
+
+/* =========================
+   HOMEPAGE HERO ONLY
+========================= */
+
+.hero-header {
+  position: relative;
+  height: 360px;
+  background: url("images/internet.jpeg") no-repeat center center/cover;
+  color: white;
+}
+
+.hero-overlay {
+  background: linear-gradient(rgba(0,0,40,0.75), rgba(0,100,140,0.7));
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content {
+  max-width: 850px;
+  text-align: center;
+  padding: 20px;
+}
+
+.hero-content h1 {
+  font-size: 42px;
+  color: #00e5ff;
+}
+
+.hero-content p {
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.logo {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+  border: 2px solid #00e5ff;
+}
+
+/* =========================
+   GLOBAL NAV (ALL PAGES)
+========================= */
+
+.navbar {
+  background: #0b1b2b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 10px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  color: #00e5ff;
+}
+
+/* MENU ICON */
+.menu-icon {
+  display: none;
+  position: absolute;
+  right: 15px;
+  font-size: 28px;
+  color: white;
+  cursor: pointer;
+}
+
+/* =========================
+   MAIN CONTENT (ALL PAGES)
+========================= */
+
+.main-content {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Homepage sections */
+.welcome,
+.explore {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Cards (homepage only) */
+.terms {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  width: 220px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.card a {
+  display: inline-block;
+  margin-top: 10px;
+  background: #00e5ff;
+  padding: 6px 12px;
+  text-decoration: none;
+  color: black;
+  border-radius: 5px;
+}
+
+.card a:hover {
+  background: #00bcd4;
+}
+
+/* Subpage image support */
+.page-img {
+  display: block;
+  margin: 15px auto;
+  width: 300px;
+  max-width: 90%;
+  border-radius: 10px;
+}
+
+/* Simple header for subpages */
+.simple-header {
+  background: #0b1b2b;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Footer */
+footer {
+  background: #0b1b2b;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/* =========================
+   RESPONSIVE DESIGN
+========================= */
+
+@media (max-width: 768px) {
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background: #0b1b2b;
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    left: 0;
+    text-align: center;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .terms {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+  }
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Web Browser</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="simple-header">
+  <h1>Web Browser</h1>
+</header>
+
+<nav class="navbar">
+  <div class="nav-links" id="navLinks">
+    <a href="index.html">Home</a>
+    <a href="www.html">WWW</a>
+    <a href="tcp-ip.html">TCP/IP</a>
+    <a href="dns.html">DNS</a>
+    <a href="http.html">HTTP</a>
+  </div>
+  <div class="menu-icon" onclick="toggleMenu()">☰</div>
+</nav>
+
+<main class="main-content">
+
+  <img src="images/broswer.jpeg" class="page-img">
+
+  <h2>Definition</h2>
+<p>
+A web browser is a software application used to access, retrieve, and display content from the World Wide Web. It acts as an interface between the user and the Internet, allowing users to interact with websites and online services.
+<br><br>
+Common examples include Google Chrome, Mozilla Firefox, and Microsoft Edge, all of which interpret and render web content for users.
+</p>
+
+<h2>Explanation</h2>
+<p>
+When a user enters a URL or clicks a link, the browser sends a request to a web server using protocols such as HTTP or HTTPS. The server then responds by sending back the requested web page.
+<br><br>
+The browser interprets the received HTML, CSS, and JavaScript code to display the page visually. It also allows users to navigate between pages, save bookmarks, and interact with web applications.
+</p>
+</main>
+
+<footer>© 2026 Internet Terminology Project</footer>
+
+<script>
+function toggleMenu(){
+  document.getElementById("navLinks").classList.toggle("active");
+}
+</script>
+
+</body>
+</html>

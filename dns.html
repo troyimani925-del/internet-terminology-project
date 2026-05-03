@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DNS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="simple-header">
+  <h1>Domain Name System (DNS)</h1>
+</header>
+
+<nav class="navbar">
+  <div class="nav-links" id="navLinks">
+    <a href="index.html">Home</a>
+    <a href="www.html">WWW</a>
+    <a href="tcp-ip.html">TCP/IP</a>
+    <a href="dns.html">DNS</a>
+    <a href="http.html">HTTP</a>
+  </div>
+  <div class="menu-icon" onclick="toggleMenu()">☰</div>
+</nav>
+
+<main class="main-content">
+
+  <img src="images/dns.jpeg" class="page-img">
+
+  <h2>Definition</h2>
+  <p>
+    The Domain Name System (DNS) is a naming system used to translate human-readable domain names into machine-readable IP addresses that computers use to identify each other on the network. <br><br>
+    Without DNS, users would have to memorize numerical IP addresses instead of simple website names.
+  </p>
+
+  <h2>Explanation</h2>
+  <p>
+    When a user types a website name like www.example.com, the DNS system searches for the matching IP address in its database.<br><br>
+
+    Once found, it returns the IP address to the browser, which then connects to the correct web server.<br><br>
+
+    This process happens within milliseconds, making browsing simple and user-friendly while hiding the complexity of network addressing.
+  </p>
+
+</main>
+
+<footer>
+  <p>© 2026 Internet Terminology Project</p>
+</footer>
+
+<script>
+function toggleMenu() {
+  document.getElementById("navLinks").classList.toggle("active");
+}
+</script>
+
+</body>
+</html>

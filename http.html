@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTTP</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="simple-header">
+  <h1>HTTP</h1>
+</header>
+
+<nav class="navbar">
+  <div class="nav-links" id="navLinks">
+    <a href="index.html">Home</a>
+    <a href="www.html">WWW</a>
+    <a href="tcp-ip.html">TCP/IP</a>
+    <a href="dns.html">DNS</a>
+    <a href="http.html">HTTP</a>
+  </div>
+  <div class="menu-icon" onclick="toggleMenu()">☰</div>
+</nav>
+
+<main class="main-content">
+
+  <img src="images/http.jpeg" class="page-img">
+
+  <h2>Definition</h2>
+<p>
+HTTP (Hypertext Transfer Protocol) is a communication protocol used for transferring web pages and other resources between a web browser and a web server. It defines how requests and responses are structured on the World Wide Web.
+<br><br>
+It is one of the core technologies that enables communication and data exchange on the Internet.
+</p>
+
+<h2>Explanation</h2>
+<p>
+When a user requests a webpage by clicking a link or entering a URL, the browser sends an HTTP request to the server. The server processes the request and responds with the required webpage or data.
+<br><br>
+HTTP is a stateless protocol, meaning each request is independent and does not retain information about previous interactions. This ensures simplicity and efficiency in web communication.
+</p>
+</main>
+
+<footer>© 2026 Internet Terminology Project</footer>
+
+<script>
+function toggleMenu(){
+  document.getElementById("navLinks").classList.toggle("active");
+}
+</script>
+
+</body>
+</html>

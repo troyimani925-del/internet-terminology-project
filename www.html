@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>WWW</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="simple-header">
+  <h1>World Wide Web (WWW)</h1>
+</header>
+
+<nav class="navbar">
+  <div class="nav-links" id="navLinks">
+    <a href="index.html">Home</a>
+    <a href="www.html">WWW</a>
+    <a href="tcp-ip.html">TCP/IP</a>
+    <a href="dns.html">DNS</a>
+    <a href="http.html">HTTP</a>
+  </div>
+  <div class="menu-icon" onclick="toggleMenu()">☰</div>
+</nav>
+
+<main class="main-content">
+
+  <img src="images/www.jpeg" class="page-img">
+<h2>Definition</h2>
+<p>
+The World Wide Web (WWW) is a global system of interconnected digital resources and documents that are accessed through the Internet using web browsers. It is built on top of the Internet and enables users to view and interact with multimedia content such as text, images, videos, and interactive applications.
+<br><br>
+The WWW is not the Internet itself, but rather a service that uses the Internet as its communication infrastructure to deliver web content across devices worldwide.
+</p>
+
+<h2>Explanation</h2>
+<p>
+The WWW works through a network of linked web pages connected using hyperlinks. When a user clicks a link, the browser sends a request to a web server which responds by delivering the requested page.
+<br><br>
+It relies on key technologies such as HTML for structuring content, HTTP/HTTPS for communication, and URLs for locating resources. This system allows users to easily navigate between different websites and access vast amounts of information quickly and efficiently.
+</p>
+</main>
+
+<footer>© 2026 Internet Terminology Project</footer>
+
+<script>
+function toggleMenu(){
+  document.getElementById("navLinks").classList.toggle("active");
+}
+</script>
+
+</body>
+</html>
